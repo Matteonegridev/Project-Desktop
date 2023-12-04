@@ -75,7 +75,7 @@ a:hover {
 }
 
 .button:hover {
-  background-color: #beda10;
+  background-color: var(--accent);
   cursor: pointer;
   color: #070514;
 }
@@ -168,7 +168,7 @@ section {
 
 .works-item-tags {
   font-size: 24px;
-  color: #beda10;
+  color: var(--accent);
   margin-left: 10px;
 }
 
@@ -206,17 +206,17 @@ section {
 
 .foto1 {
   align-self: self-end;
-  border: 1px inset #beda10;
+  border: 1px inset var(--accent);
 }
 
 .foto2 {
   align-self: center;
-  border: 1px inset #beda10;
+  border: 1px inset var(--accent);
 }
 
 .foto3 {
   align-self: flex-start;
-  border: 1px inset #beda10;
+  border: 1px inset var(--accent);
   margin-bottom: 56px;
 }
 
@@ -226,33 +226,33 @@ section {
 
 .neon1 {
   align-self: self-start;
-  border: 1px inset #beda10;
+  border: 1px inset var(--accent);
 }
 
 .neon2 {
   align-self: self-end;
-  border: 1px inset #beda10;
+  border: 1px inset var(--accent);
 }
 
 .neon3 {
   align-self: self-start;
-  border: 1px inset #beda10;
+  border: 1px inset var(--accent);
   margin-bottom: 56px;
 }
 
 .light1 {
   align-self: self-start;
-  border: 1px inset #beda10;
+  border: 1px inset var(--accent);
 }
 
 .light2 {
   align-self: self-end;
-  border: 1px inset #beda10;
+  border: 1px inset var(--accent);
 }
 
 .light3 {
   align-self: self-start;
-  border: 1px inset #beda10;
+  border: 1px inset var(--accent);
   margin-bottom: 56px;
 }
 
