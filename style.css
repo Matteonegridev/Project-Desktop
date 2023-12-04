@@ -1,3 +1,8 @@
+:root {
+  --bg-color: #070514;
+  --accent: #beda10;
+}
+
 * {
   padding: o;
   margin: 0;
@@ -5,7 +10,7 @@
 }
 
 body {
-  background-color: #070514;
+  background-color: var(--bg-color);
   color: #fff;
   font-family: "Work Sans", sans-serif;
   font-size: 100%;
@@ -54,7 +59,7 @@ a:link {
 }
 
 a:hover {
-  color: #beda10;
+  color: var(--accent);
 }
 
 .button {
